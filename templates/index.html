@@ -1,0 +1,23 @@
+<html>
+<head></head>
+<body>
+    <h1>Car Price Prediction</h1>
+    <form action = "/predict" method = "POST">
+        <label>Year:</label>
+        <input type = "text" name = "Year"><br><br>
+        <label>Present_Price:</label>
+        <input type = "text" name = "Present_Price"><br><br>
+        <label>Kms_Driven:</label>
+        <input type = "text" name = "Kms_Driven"><br><br>
+        <label>Fuel_Type:</label>
+        <input type = "text" name = "Fuel_Type"><br><br>
+        <label>Seller_Type:</label>
+        <input type = "text" name = "Seller_Type"><br><br>
+        <label>Transmission:</label>
+        <input type = "text" name = "Transmission"><br><br>
+        <label>Owner:</label>
+        <input type = "text" name = "Owner"><br><br>
+        <input type = "submit" value = "PREDICT">{{pred}}
+    </form>
+</body>
+</html>
